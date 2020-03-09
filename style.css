@@ -18,7 +18,7 @@ body {
 .text {
   width: 90%;
   margin: auto;
-  max-width: 400px;
+  max-width: 440px;
   padding: 40px 0;
   position: absolute;
   top: 50%;
@@ -43,6 +43,16 @@ body {
 }
 
 .text .light {
-  opacity: 0.25;
   margin-top: 25px;
+}
+
+.text a {
+  color: white;
+  opacity: 0.25;
+  text-decoration: none;
+  transition: 0.2s opacity;
+}
+
+.text a:hover {
+  opacity: 0.4;
 }
